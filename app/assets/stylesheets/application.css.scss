@@ -21,7 +21,7 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
   //Gradient provided by @_ighosh at uiGradients.com
   background: #FFEEEE; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #FFEEEE , #DDEFBB); /* Chrome 10-25, Safari 5.1-6 */
@@ -30,4 +30,29 @@ body, .navbar {
  
  .navbar {
    border:none;
+ }
+ 
+.navbar-default .navbar-brand {
+   color:darkolivegreen;
+ }
+ 
+.navbar-default .navbar-nav > li > a {
+   color: darkolivegreen;
+ }
+ 
+ .navbar-default .navbar-brand:hover {
+   color: darkolivegreen;
+  opacity: 0.4;
+ }
+ 
+ .navbar-default .navbar-nav > li > a:hover {
+   color: darkolivegreen;
+  opacity: 0.4;
+ }
+ 
+ .home-callout {
+   color: black;
+   margin-top: -20px;
+   padding-top: 30px;
+   padding-bottom: 30px;
  }
